@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: mediumblue;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+
+main#texto{
+    width: 1000px;
+    
+}
+
+.principais{
+    background-color: white;
+    border-radius: 10px; 
+    padding: 15px;
+    width: 600px;
+    box-shadow: 1px 10px 25px black;
+    margin: auto;
+}
+
+.secundarios{
+    background-color: white;
+    border-radius: 15px; 
+    padding: 10px;
+    width: 800px;
+    box-shadow: 1px 10px 25px black;
+    margin: auto;    
+}
+
+.textos{
+    background-color: white;
+    border-radius: 10px; 
+    padding: 15px;
+    width: 1000px;
+    box-shadow: 1px 10px 25px black;
+    margin: auto;
+}
+
+.texto_alinha{
+    text-align: center;
+}
+
+.indent{
+    text-indent: 15px;
+}
+
+.destaque{
+    text-decoration: underline;
+}
+
+p{  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-weight: bolder;
+}
+
