@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* Index ira armazenar styles basicos*/
+
+
+@font-face {
+    font-family: 'roboto';
+    src: url('font/Roboto-Regular.ttf') format('TrueType');
+}
+
+:root{
+    --bg_color: black;
+    --font_padrao: 'roboto';
+    --font_color: white;
+    --name_color: rgb(0, 157, 255);
+    --border_color: rgba(104, 33, 255, 0.477);
+}
+
+body{
+    background-color: var(--bg_color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+footer > p{
+    text-align: center;
+}
+
+footer > div{
+    width: 50px;
+    height: 50px;
+    
+    
+    padding: 20px;
+}
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer > a{
+    margin-top: 10px;
+}
+
+
+h1{
+    opacity: 0%, 100%;
+    transition: 1s;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--name_color);
+    text-align: center;
+    font-size: 2em;
+}
+
+h2{
+    margin-left: 20px;
+    padding: 5px;
+    color: var(--name_color);
+}
+
+p{
+    line-height: 1.5em;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+
+ul{
+    
+    font-size: 1.3em;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    background-color: var(--bg_color);
+}
+
+img{
+ 
+    width: 100%;
+    margin: auto;
+}
