@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posição dos Fundos</title>
+
+    <style>
+
+
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div.bloco{
+            border: 2px solid black;
+            height: 200px;
+            margin: 5px;
+            border-radius: 10px;
+            background-image: url(img/wallpaper002.jpg);
+        }
+
+        div#quadro1{
+            background-size: 300px 200px;
+            background-repeat: no-repeat;
+            background-position: left top;    
+        }
+
+        div#quadro1 div#teste h1{
+            display: flex;
+            justify-content: center;
+        }
+
+        div#quadro1 div#conteudo{
+            display: flex;
+            justify-content: center;
+        }
+
+        div#quadro1 div#conteudo p{
+            min-width: 300px;
+            max-width: 800px;
+        }
+
+
+        div#quadro2{
+            background-position: left center;
+        }
+
+        div#quadro3{
+            background-position: right bottom;
+        }
+
+        div#quadro4{
+            background-position: right center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bloco" id="quadro1">
+        <div id="teste">
+            <h1>Configurando textos</h1>
+           
+        </div>
+        <div id="conteudo">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum accusantium velit numquam, nulla eius nemo soluta et. Et assumenda sunt quo quaerat eos. Aperiam alias nam recusandae officiis aut dolores!</p>
+        </div>
+    </div>
+    <div class="bloco" id="quadro2">
+
+    </div>
+    <div class="bloco" id="quadro3">
+
+    </div>
+    <div class="bloco" id="quadro4">
+
+    </div>
+</body>
+</html>
