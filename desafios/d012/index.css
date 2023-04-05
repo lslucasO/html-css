@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+
+:root{
+    --header_color: black;
+    --text_color: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: var(--header_color);
+    max-width: auto;
+    min-width: 400px;
+    height: 150px;
+}
+
