@@ -56,6 +56,26 @@ a{
     text-decoration: none;
 }
 
+section#bloco_1 div.estrofe{ /* Bloco da primeira estrofe */
+    padding: 50px;
+}
+
+section#bloco_1 div#bg_image_bloco1{
+    background-image: url(imagens/background001.jpg);
+    height: 98vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.text_estrofe{
+    font-size: 1.5em;
+    font-weight: bold;
+    max-width: 250px;
+    color: black;
+    font-family: 'sriracha';
+}
 
 
 
