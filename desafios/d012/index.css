@@ -40,7 +40,7 @@ h1{
     color: var(--text_color);
     padding-bottom: 10px;
     font-weight: normal;
-    font-size: 2.8em;
+    font-size: 3.5em;
     font-family: 'passion';
 }
 
@@ -62,7 +62,7 @@ section#bloco_1 div.estrofe{ /* Bloco da primeira estrofe */
 
 section#bloco_1 div#bg_image_bloco1{
     background-image: url(imagens/background001.jpg);
-    height: 98vh;
+    height: 500px;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
