@@ -37,6 +37,19 @@ header div#text_header{  /* Div com os textos */
     display: block;
 }
 
+footer{ /* Footer com nome do criador e curso */    
+   
+    color: white;
+    padding: 15px;
+    background-color: black;
+    
+}
+
+footer > p{ /* Config do texto do footer */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+}
+
 h1{ /* Cordel Moderno */
     font-variant: small-caps;
     color: var(--text_color);
@@ -55,7 +68,7 @@ p{
 p.text_estrofe{ /* Versos das estrofes */
     
     font-weight: normal;
-    max-width: 750px;
+    max-width: 950px;
     color: black;
     font-family: 'sriracha';
 }
@@ -72,7 +85,7 @@ section.bloco div.estrofe{ /* Bloco da primeira estrofe */
 }
 
 section.bloco div.background_img div.estrofe p#img_text{ /* Config dos BG dos texto com imagem*/
-    max-width: 750px;
+    max-width: 950px;
     padding: 10px;
     background-color: rgba(44, 44, 44, 0.519);
     color: white;
