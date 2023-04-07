@@ -37,7 +37,7 @@ header div#text_header{  /* Div com os textos */
     display: block;
 }
 
-h1{
+h1{ /* Cordel Moderno */
     font-variant: small-caps;
     color: var(--text_color);
     padding-bottom: 10px;
@@ -46,7 +46,7 @@ h1{
     font-family: 'passion';
 }
 
-p{
+p{ 
     font-weight: normal;
     font-family: 'passion';
     color: lightgray;
@@ -60,7 +60,7 @@ p.text_estrofe{ /* Versos das estrofes */
     font-family: 'sriracha';
 }
 
-a{
+a{  /* Config do link "Milton Duarte"*/
     transition: 0.5s;
     color: var(--text_color);
     text-decoration: none;
@@ -91,21 +91,5 @@ section#img02 div.background_img{ /* Segunda imagem de fundo */
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-section.bloco div#bg_image_bloco1{
-    background-image: url(imagens/background001.jpg);
-    height: 500px;
-    background-size: cover;
-    background-position: center center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
-
-
-
-
-
-
-
 
 
