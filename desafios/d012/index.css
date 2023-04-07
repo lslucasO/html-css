@@ -66,7 +66,7 @@ p{
 }
 
 p.text_estrofe{ /* Versos das estrofes */
-    
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.071);
     font-weight: normal;
     max-width: 950px;
     color: black;
@@ -92,6 +92,7 @@ section.bloco div.background_img div.estrofe p#img_text{ /* Config dos BG dos te
 }
 
 section#img01 div.background_img{ /* Primeira imagem de fundo */
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.538);
     background-image: url(imagens/background001.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -99,6 +100,7 @@ section#img01 div.background_img{ /* Primeira imagem de fundo */
 }
 
 section#img02 div.background_img{ /* Segunda imagem de fundo */
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.6);
     background-image: url(imagens/background002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
