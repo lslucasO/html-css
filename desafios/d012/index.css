@@ -37,6 +37,7 @@ header div#text_header{  /* Div com os textos */
 }
 
 h1{
+    font-variant: small-caps;
     color: var(--text_color);
     padding-bottom: 10px;
     font-weight: normal;
@@ -56,11 +57,17 @@ a{
     text-decoration: none;
 }
 
-section#bloco_1 div.estrofe{ /* Bloco da primeira estrofe */
+section.bloco div.estrofe{ /* Bloco da primeira estrofe */
     padding: 50px;
 }
 
-section#bloco_1 div#bg_image_bloco1{
+section.bloco div.estrofe p#img_text{
+    background-color: rgba(26, 26, 26, 0.519);
+    color: white;
+}
+
+
+section.bloco div#bg_image_bloco1{
     background-image: url(imagens/background001.jpg);
     height: 500px;
     background-size: cover;
@@ -69,13 +76,15 @@ section#bloco_1 div#bg_image_bloco1{
     background-repeat: no-repeat;
 }
 
-.text_estrofe{
+p.text_estrofe{
     font-size: 1.5em;
     font-weight: bold;
-    max-width: 250px;
+    max-width: 300px;
     color: black;
     font-family: 'sriracha';
 }
+
+
 
 
 
