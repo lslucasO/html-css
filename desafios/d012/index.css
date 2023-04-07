@@ -27,7 +27,8 @@ header{ /* Cabeçalho do Site */
     background-color: var(--header_color);
     max-width: auto;
     min-width: 400px;
-    height: 150px;
+    padding: 20px;
+
 }
 
 header div#text_header{  /* Div com os textos */
@@ -41,7 +42,7 @@ h1{
     color: var(--text_color);
     padding-bottom: 10px;
     font-weight: normal;
-    font-size: 3.5em;
+    font-size: 10vw;
     font-family: 'passion';
 }
 
@@ -51,10 +52,10 @@ p{
     color: lightgray;
 }
 
-p.text_estrofe{
-    font-size: 1.5em;
-    font-weight: bold;
-    max-width: 300px;
+p.text_estrofe{ /* Versos das estrofes */
+    
+    font-weight: normal;
+    max-width: 750px;
     color: black;
     font-family: 'sriracha';
 }
@@ -66,11 +67,12 @@ a{
 }
 
 section.bloco div.estrofe{ /* Bloco da primeira estrofe */
+    font-size: 4.5vw;
     padding: 50px;
 }
 
 section.bloco div.background_img div.estrofe p#img_text{ /* Config dos BG dos texto com imagem*/
-    max-width: 400px;
+    max-width: 750px;
     padding: 10px;
     background-color: rgba(146, 146, 146, 0.519);
     color: white;
