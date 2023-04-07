@@ -77,7 +77,10 @@ section.bloco div.background_img div.estrofe p#img_text{ /* Config dos BG dos te
 }
 
 section.bloco div.background_img{
-    background-color: black;
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 section.bloco div#bg_image_bloco1{
