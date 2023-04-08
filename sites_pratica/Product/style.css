@@ -56,7 +56,7 @@ main div#box_conteudo p{ /* Configurações dos textos pequenos*/
     max-width: 330px;
     font-weight: lighter;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
     padding-left: 55px;
     color: var(--font_text_color);
 }
@@ -113,6 +113,21 @@ main div#box_conteudo div#box_plan div#offer_plan p{ /* Texto change para mudan�
     padding: 0px;
 }
 
+main div#box_conteudo div#buttons {
+    padding-top: 40px;
+    display: block;
+}
+
+main div#box_conteudo div#buttons p a#button_1{ /* */
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+}
+
+main div#box_conteudo div#buttons p{ /* */
+    padding: 0px;
+    margin: auto;
+}
 
 
 
