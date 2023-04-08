@@ -113,20 +113,24 @@ main div#box_conteudo div#box_plan div#offer_plan p{ /* Texto change para mudan√
     padding: 0px;
 }
 
-main div#box_conteudo div#buttons {
-    padding-top: 40px;
+main div#box_conteudo div#buttons{ /* Box dos bot√µes */ 
+    padding-top: 25px;
     display: block;
 }
 
-main div#box_conteudo div#buttons p a#button_1{ /* */
-    text-decoration: none;
-    color: white;
+main div#box_conteudo div#buttons a#button_1{ /* Config do button 1 */
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.211);
+    font-weight: bold;
+    font-family: var(--font_padrao);
+    padding: 18px;
+    border: 10px;
+    border-radius: 20px;
     background-color: blue;
-}
-
-main div#box_conteudo div#buttons p{ /* */
-    padding: 0px;
+    color: white;
+    text-decoration: none;
     margin: auto;
+    display: block;
+    width: 380px;
 }
 
 
