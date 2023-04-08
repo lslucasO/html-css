@@ -1,18 +1,53 @@
 @charset "UTF-8";
 
 
+*{ /* Configurações gerais */
+    padding: 0px;
+    margin: 0px;
+}
 
-div{
+:root{ /* Config das variaveis */
+    --bg_color: #E0E8FF;
+    --font_padrao: Arial, Helvetica, sans-serif;
+}
+
+body{ /* Cor de fundo do site */
+    background-color: var(--bg_color);
+}
+
+main{ /* Padding principal */
+    padding-top: 60px;   
+}
+
+main div{ /* Alinhamento dos itens */
     display: flex;
     justify-content: center;
 }
 
-img{
+main div#foto_pessoa img{ /* Bordas da imagem */ 
     border: 10px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
+main div#conteudo{ /*  Container das info  */ 
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 300px;
+    margin: auto;
+    min-width: 200px;
+    max-width: 450px;
+    background-color: white;
+}
+
+main div#conteudo h1{ /* Titulo do Conteudo */
+    padding-top: 30px;
+    font-size: 1.7em;
+    text-shadow: 1px 2px 5px rgba(45, 45, 45, 0.133);
+    color: black;
+    font-weight: bold;
+    font-family: var(--font_padrao);
+}
 
 
 
