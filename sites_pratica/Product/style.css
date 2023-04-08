@@ -19,8 +19,10 @@ body{ /* Cor de fundo do site */
 }
 
 main{ /* Padding principal */
-    padding-top: 60px;   
+    padding-top: 60px;
+    padding-bottom: 60px;   
 }
+
 
 main div{ /* Alinhamento dos itens */
     display: flex;
@@ -28,20 +30,22 @@ main div{ /* Alinhamento dos itens */
 }
 
 main div#foto_pessoa img{ /* Bordas da imagem */ 
+    
     border: 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 main div#box_conteudo{ /*  Container das info  */ 
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.144);
     display: block;
     text-align: center;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     height: 400px;
     margin: auto;
-    min-width: 200px;
-    max-width: 455px;
+    min-width: 300px;
+    max-width: 450px;
     background-color: white;
 }
 
@@ -67,6 +71,9 @@ main div#box_conteudo h1{ /* Titulo do Conteudo */
 }
 
 main div#box_conteudo div#offer_plan{ /* Caixa da oferta anual */
+    border: 10px;
+    border-radius: 20px;
+    width: 350px;
     padding: 15px;
     background-color: var(--box_annual_plan_color);
     display: flex;
@@ -83,6 +90,7 @@ main div#box_conteudo img{ /* Tamanho do icone Music do plano anual */
 
 
 main div#box_conteudo div#offer_plan div#textos{ /* Caixa separada para os textos da oferta */
+    padding-right: 40px;
     display: block;
 }
 
@@ -96,8 +104,13 @@ main div#box_conteudo div#offer_plan div#textos p#text_plano{ /*  Configuraçõe
     padding-left: 20px;
 }
 
-main div#box_conteudo div#offer_plan div#textos p#text_valor{
+main div#box_conteudo div#offer_plan div#textos p#text_valor{ /* Padding do valor do plano anual */
    padding: 5px;
+}
+
+main div#box_conteudo div#box_plan div#offer_plan p{ /* Texto change para mudança de plano */
+    margin: auto;
+    padding: 0px;
 }
 
 
