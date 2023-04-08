@@ -108,7 +108,9 @@ main div#box_conteudo div#offer_plan div#textos p#text_valor{ /* Padding do valo
    padding: 5px;
 }
 
-main div#box_conteudo div#box_plan div#offer_plan p{ /* Texto change para mudança de plano */
+main div#box_conteudo div#box_plan div#offer_plan p#change_plan{ /* Texto change para mudança de plano */
+    color: #7F7BBA;
+    font-weight: bolder;
     margin: auto;
     padding: 0px;
 }
@@ -118,7 +120,7 @@ main div#box_conteudo div#buttons{ /* Box dos botões */
     display: block;
 }
 
-main div#box_conteudo div#buttons a#button_1{ /* Config do button 1 */
+main div#box_conteudo div#buttons div a#button_1{ /* Config do button 1 */
     box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.211);
     font-weight: bold;
     font-family: var(--font_padrao);
@@ -133,12 +135,13 @@ main div#box_conteudo div#buttons a#button_1{ /* Config do button 1 */
     width: 380px;
 }
 
-main div#box_conteudo div#buttons div a#button_2{
+main div#box_conteudo div#buttons div a#button_2{ /*  Config do button 2 */
     padding-top: 25px;
     font-family: var(--font_padrao);
     text-decoration: none;
     font-weight: bold;
     color: #7c8092;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.085);
 }
 
 
