@@ -4,6 +4,7 @@
 :root{ /* Config das variaveis */
     --bg_color: #E0E8FF;
     --font_text_color: #7B7E91;
+    --box_annual_plan_color: #F8F9FE;
     --font_padrao: Arial, Helvetica, sans-serif;
 }
 
@@ -32,7 +33,7 @@ main div#foto_pessoa img{ /* Bordas da imagem */
     border-top-right-radius: 20px;
 }
 
-main div#conteudo{ /*  Container das info  */ 
+main div#box_conteudo{ /*  Container das info  */ 
     display: block;
     text-align: center;
     border-bottom-left-radius: 15px;
@@ -44,24 +45,59 @@ main div#conteudo{ /*  Container das info  */
     background-color: white;
 }
 
-main div#conteudo p{ /* Configurações dos textos pequenos*/
+main div#box_conteudo p{ /* Configurações dos textos pequenos*/
     font-size: 0.9em;
     font-family: var(--font_padrao);
     text-align: center;
     max-width: 330px;
     font-weight: lighter;
     padding-top: 20px;
+    padding-bottom: 40px;
     padding-left: 55px;
     color: var(--font_text_color);
 }
 
-main div#conteudo h1{ /* Titulo do Conteudo */
+main div#box_conteudo h1{ /* Titulo do Conteudo */
     padding-top: 30px;
     font-size: 1.7em;
     text-shadow: 1px 2px 5px rgba(45, 45, 45, 0.133);
     color: black;
     font-weight: bold;
     font-family: var(--font_padrao);
+}
+
+main div#box_conteudo div#offer_plan{ /* Caixa da oferta anual */
+    padding: 15px;
+    background-color: var(--box_annual_plan_color);
+    display: flex;
+    justify-content: left;
+
+}
+
+main div#box_conteudo img{ /* Tamanho do icone Music do plano anual */
+    padding-left: 20px;
+    padding-top: 3px;
+    width: 48px;
+    height: 48px;
+}
+
+
+main div#box_conteudo div#offer_plan div#textos{ /* Caixa separada para os textos da oferta */
+    display: block;
+}
+
+main div#box_conteudo div#offer_plan div#textos p#text_plano{ /*  Configurações do texto "Annual Plan"  */
+    font-size: 0.95em;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+main div#box_conteudo div#offer_plan div#textos p#text_valor{
+   padding: 5px;
 }
 
 
