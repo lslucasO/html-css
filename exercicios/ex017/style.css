@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+body{
+    background-image: linear-gradient(to right, white 30%, black);
+    background-attachment: fixed;
+}
+
+main{
+    background-color: rgba(180, 180, 180, 0.504);
+    border-radius: 20px;
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 2px 2px 10px rgba(44, 44, 44, 0.504);
+}
+
+p{
+    /* Medidas Absolutas
+    cm, mm, in, px, pt, pc
+    */
+    /*Medidas Relativas
+    em, ex, rem, vw, 
+    16px geralmente = 1em
+    */
+    font-size: 1.5em;
+    text-align: justify;
+    text-shadow: 1px 5px 10px rgba(147, 147, 147, 0.63);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-style: normal;
+    text-decoration: none;
+    /*lighter, bold, bolder, normal*/
+}
+
+h1{
+    font: normal bolder 2em Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    /* shorthand font
+    
+    font-style - font weight- font size- font-family*/
+}
+
+h2{
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    font-size: 1.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}

@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'passion';
+    src: url(font/PassionOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'sriracha';
+    src: url(font/Sriracha-Regular.ttf);
+}
+
+
+:root{
+    --header_color: black;
+    --text_color: white;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{ /* Cabeçalho do Site */ 
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.451);
+    background-color: var(--header_color);
+    max-width: auto;
+    min-width: 400px;
+    padding: 20px;
+
+}
+
+header div#text_header{  /* Div com os textos */
+    padding-top: 40px;
+    text-align: center;
+    display: block;
+}
+
+footer{ /* Footer com nome do criador e curso */    
+   
+    color: white;
+    padding: 15px;
+    background-color: black;
+    
+}
+
+footer > p{ /* Config do texto do footer */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;  
+}
+
+h1{ /* Cordel Moderno */
+    font-variant: small-caps;
+    color: var(--text_color);
+    padding-bottom: 10px;
+    font-weight: normal;
+    font-size: 10vw;
+    font-family: 'passion';
+}
+
+p{ 
+    font-weight: normal;
+    font-family: 'passion';
+    color: lightgray;
+}
+
+p.text_estrofe{ /* Versos das estrofes */
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.071);
+    font-weight: normal;
+    max-width: 950px;
+    color: black;
+    font-family: 'sriracha';
+}
+
+a{  /* Config do link "Milton Duarte"*/
+    transition: 0.5s;
+    color: var(--text_color);
+    text-decoration: none;
+}
+
+section.bloco div.estrofe{ /* Bloco da primeira estrofe */
+    font-size: 4.5vw;
+    padding: 50px;
+}
+
+section.bloco div.background_img div.estrofe p#img_text{ /* Config dos BG dos texto com imagem*/
+    max-width: 950px;
+    padding: 10px;
+    background-color: rgba(44, 44, 44, 0.519);
+    color: white;
+}
+
+section#img01 div.background_img{ /* Primeira imagem de fundo */
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.538);
+    background-image: url(imagens/background001.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+section#img02 div.background_img{ /* Segunda imagem de fundo */
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.6);
+    background-image: url(imagens/background002.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
