@@ -2,3 +2,21 @@
 
 
 
+div{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    border: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+
+
+
+
+
+
