@@ -5,6 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        table{
+            width: 400px;
+            border-collapse: collapse;
+            box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.281);
+        }
+        td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        tr.linha{
+            background-color: gray;
+        }
+    </style>
+
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
@@ -16,7 +33,7 @@
             <td>C1</td>
         </tr>
         
-        <tr> <!-- Segunda linha -->
+        <tr class="linha"> <!-- Segunda linha -->
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
@@ -28,7 +45,13 @@
             <td>C3  </td>
         </tr>
 
-        <tr>
+        <tr class="linha"> <!-- Quarta linha -->
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+
+        <tr> <!-- Quinta linha -->
             <td>A4</td>
             <td>B4</td>
             <td>C4</td>
