@@ -1,1 +1,18 @@
 @charset "UTF-8";
+
+
+:root{ /* Variáveis */
+    --bg_color: white;
+    --font_padrao: Arial, Helvetica, sans-serif;
+}
+
+
+*{    /* Config geral do site */
+    margin: 0px;
+    padding: 0px;
+}
+
+a{ /* Config dos clicáveis */
+    font-family: var(--font_padrao);
+    text-decoration: none;
+}
