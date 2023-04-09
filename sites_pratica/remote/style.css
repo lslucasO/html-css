@@ -13,6 +13,62 @@
 }
 
 a{ /* Config dos clicáveis */
+    font-size: 0.8em;
     font-family: var(--font_padrao);
     text-decoration: none;
 }
+
+a.clicaveis{ /* Padding dos butao*/
+    padding: 15px;
+}
+
+header div#box_header{ /* Caixa dos elementos do header */
+    display: flex;
+    justify-content: start;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+header div#box_header div#client_button div#border_register{ /* Border register */
+    padding: 5px;
+    width: 100px;
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+header div#box_header div#client_button a#button_registrar{ /* Config do button register*/
+    
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: auto;
+}
+
+header div#box_header div#client_button{ /* Box dos button login e register */
+    text-align: center;
+    display: flex;
+    margin: auto;
+    padding-left: 450px;
+}
+
+header div#box_header a{ /* Espaçamento dos clicaveis */
+    padding-right: 30px;
+    color: gray;
+}
+
+
+header div#box_header a:hover{ /* Passar o mouse por cima dos itens */
+    padding-right: 30px;
+    color: black;
+}
+
+header div#box_header a#main_text{ /* Config do texto snap */
+    padding-right: 60px;
+    color: black;
+    font-size: 2.2em;
+    font-weight: bold;
+}
+
+
+
+
